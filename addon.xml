@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.crisplus" name="CrisPlus TV" version="1.0.0" provider-name="CrisPlus">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">CrisPlus TV - browse and play your TorBox library</summary>
+    <summary lang="es">CrisPlus TV - navega y reproduce tu biblioteca de TorBox</summary>
+    <description lang="en">Organize and play the content you already have downloaded in your TorBox account. Each user uses their own API key.</description>
+    <description lang="es">Organiza y reproduce el contenido que ya tienes descargado en tu cuenta TorBox. Cada usuario usa su propia clave API.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
