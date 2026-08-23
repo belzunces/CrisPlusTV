@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <category label="Cuenta TorBox">
+    <setting id="torbox_api_key" type="text" label="API Key de TorBox" default=""/>
+    <setting id="torbox_api_url" type="text" label="URL API TorBox" default="https://api.torbox.app/v1/api" visible="false"/>
+  </category>
+  <category label="Opciones">
+    <setting id="tmdb_token" type="text" label="TMDB Read Access Token (opcional)" default=""/>
+    <setting id="group_series" type="bool" label="Agrupar series por temporada" default="true"/>
+    <setting id="show_hidden" type="bool" label="Mostrar solo archivos de video" default="true"/>
+  </category>
+</settings>
